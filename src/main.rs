@@ -17,7 +17,7 @@ fn main() {
 
 
     print!("\n");
-    println!("Running mod 002...");
+    println!("Running mod 002::01...");
     integer_001::main();
     integer_002::main();
     integer_003::main();
@@ -28,9 +28,16 @@ fn main() {
     float_008::main();
     range_009::main();
     range_010::main();
-    
+    computation_011::main();
 
-    //* 002 ends here
+    //* 002::01 ends here
+
+
+    print!("\n");
+    println!("Running mod 002::02...");
+    
+    //* 002::02 ends here
+
 }
 
 //TODO Make them tests instead of running in bulk!
