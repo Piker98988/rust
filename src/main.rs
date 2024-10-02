@@ -1,5 +1,7 @@
-use rust_by_practice::variables::*;
-use rust_by_practice::btypes::nums::*;
+use rust_by_practice::variables::*; //* This is the variables module
+use rust_by_practice::btypes::nums::*; //* Numbers from basic types
+use rust_by_practice::btypes::cbu::*; //* Char, Bool and Unit from basic types
+use rust_by_practice::btypes::statnexp::*; //* Statements and expressions from basic types
 
 fn main() {
     println!("Running mod 001...");
@@ -12,7 +14,6 @@ fn main() {
     unused007::main();
     destructure008::main();
     destructure_assign009::main();
-
     //* 001 ends here
 
 
@@ -35,8 +36,30 @@ fn main() {
 
     print!("\n");
     println!("Running mod 002::02...");
+    char001::main();
+    char002::main();
+    bool003::main();
+    bool004::main();
+    unit005::main();
+    unit006::main();
 
     //* 002::02 ends here
+
+
+    print!("\n");
+    println!("Running mod 002::03...");
+    example001::main();
+    exercise002::main();
+    exercise003::main();
+    exercise004::main();
+
+    //* 002::03 ends here
+
+
+    print!("\n");
+    println!("Running mod 002::04...");
+
+    //* 002::04 ends here
 }
 
 //TODO Make them tests instead of running in bulk!
