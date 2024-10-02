@@ -12,32 +12,31 @@ fn main() {
     unused007::main();
     destructure008::main();
     destructure_assign009::main();
-    
+
     //* 001 ends here
 
 
     print!("\n");
     println!("Running mod 002::01...");
-    integer_001::main();
-    integer_002::main();
-    integer_003::main();
-    integer_004::main();
-    integer_005::main();
-    integer_006::main();
-    float_007::main();
-    float_008::main();
-    range_009::main();
-    range_010::main();
-    computation_011::main();
+    integer001::main();
+    integer002::main();
+    integer003::main();
+    integer004::main();
+    integer005::main();
+    integer006::main();
+    float007::main();
+    float008::main();
+    range009::main();
+    range010::main();
+    computation011::main();
 
     //* 002::01 ends here
 
 
     print!("\n");
     println!("Running mod 002::02...");
-    
-    //* 002::02 ends here
 
+    //* 002::02 ends here
 }
 
 //TODO Make them tests instead of running in bulk!
