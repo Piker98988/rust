@@ -2,6 +2,7 @@ use rust_by_practice::variables::*; //* This is the variables module
 use rust_by_practice::btypes::nums::*; //* Numbers from basic types
 use rust_by_practice::btypes::cbu::*; //* Char, Bool and Unit from basic types
 use rust_by_practice::btypes::statnexp::*; //* Statements and expressions from basic types
+use rust_by_practice::btypes::funcs::*;
 
 fn main() {
     println!("Running mod 001...");
@@ -58,6 +59,11 @@ fn main() {
 
     print!("\n");
     println!("Running mod 002::04...");
+    functions001::main();
+    functions002::main();
+    functions003::main();
+// //    diverge004::main();
+    diverge005::main();
 
     //* 002::04 ends here
 }
