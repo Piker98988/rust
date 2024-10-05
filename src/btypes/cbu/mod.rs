@@ -1,3 +1,4 @@
+//! Char, Bool and Unit; Book chapter 4.2; Code convention 004::02::*
 pub mod char001;
 pub mod char002;
 pub mod bool003;

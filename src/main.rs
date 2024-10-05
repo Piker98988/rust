@@ -1,8 +1,22 @@
-use rust_by_practice::variables::*; //* This is the variables module
-use rust_by_practice::btypes::nums::*; //* Numbers from basic types
-use rust_by_practice::btypes::cbu::*; //* Char, Bool and Unit from basic types
-use rust_by_practice::btypes::statnexp::*; //* Statements and expressions from basic types
-use rust_by_practice::btypes::funcs::*;
+//! Rust by practice. Self hosted mdbook with exercises to master rust.
+
+use rust_by_practice::variables::*; 
+// ? Variables
+
+use rust_by_practice::btypes::nums::*; 
+// ? Numbers from basic types
+
+use rust_by_practice::btypes::cbu::*; 
+// ? Char, Bool and Unit from basic types
+
+use rust_by_practice::btypes::statnexp::*; 
+// ? Statements and expressions from basic types
+
+use rust_by_practice::btypes::funcs::*; 
+// ? Functions from basic types
+
+use rust_by_practice::ownnbow::own::*;
+// ? Ownership from Ownership and Borrowing
 
 fn main() {
     println!("Running mod 001...");
@@ -15,7 +29,8 @@ fn main() {
     unused007::main();
     destructure008::main();
     destructure_assign009::main();
-    //* 001 ends here
+
+    // * 001 ends here
 
 
     print!("\n");
@@ -32,7 +47,7 @@ fn main() {
     range010::main();
     computation011::main();
 
-    //* 002::01 ends here
+    // * 002::01 ends here
 
 
     print!("\n");
@@ -44,7 +59,7 @@ fn main() {
     unit005::main();
     unit006::main();
 
-    //* 002::02 ends here
+    // * 002::02 ends here
 
 
     print!("\n");
@@ -54,7 +69,7 @@ fn main() {
     exercise003::main();
     exercise004::main();
 
-    //* 002::03 ends here
+    // * 002::03 ends here
 
 
     print!("\n");
@@ -62,10 +77,20 @@ fn main() {
     functions001::main();
     functions002::main();
     functions003::main();
-// //    diverge004::main();
+    diverge004::main();
     diverge005::main();
 
-    //* 002::04 ends here
+    // * 002::04 ends here
+
+    print!("\n");
+    println!("Running mod 003::01...");
+    owner001::main();
+    owner002::main();
+    // TODO
+
+    // * 003::01 ends here
+
+
 }
 
 //TODO Make them tests instead of running in bulk!

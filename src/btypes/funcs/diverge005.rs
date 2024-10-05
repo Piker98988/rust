@@ -26,9 +26,9 @@ pub fn main() {
         // Diverging functions can also be used in match expression to replace a value of any value
         false => {
             println!("Success at 002.04.05!"); 1
-//            panic!("we have no value for `false`, but we can panic");
+//          panic!("we have no value for `false`, but we can panic");
         }
     };
 
-//    println!("Exercise Failed if printing out this line!");
+//  println!("Exercise Failed if printing out this line!");
 }
