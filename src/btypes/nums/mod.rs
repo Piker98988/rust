@@ -1,3 +1,5 @@
+//! Numbers; Book chapter 4.2; Code convention 002::01::*
+
 pub mod integer001;
 pub mod integer002;
 pub mod integer003;
