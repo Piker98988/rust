@@ -13,4 +13,3 @@ I may not make the best practices with git, because i'll just commit whatever i 
 Once I complete the book, I will try to make my own programming language even though I have fallen in love with rust. I will to hone my skills even more so rust becomes my main programming language.
 
 Also, I will start doing some [leetcode](https://leetcode.com) problems to learn algorithms and that type of thing.
-
