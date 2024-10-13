@@ -35,7 +35,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn variables() {
+    fn aa_variables_01() {
         //! Module 001
         println!("Running mod 001...");
         binding001::main();
@@ -51,7 +51,7 @@ mod tests {
     }
 
     #[test]
-    fn btypes_nums() {
+    fn ab_btypes_nums_02_1() {
         //! Module 002::01
         print!("\n");
         println!("Running mod 002::01...");
@@ -70,7 +70,7 @@ mod tests {
     }
 
     #[test]
-    fn btypes_cbu() {
+    fn ac_btypes_cbu_02_2() {
         //! Module 002::02
         print!("\n");
         println!("Running mod 002::02...");
@@ -84,7 +84,7 @@ mod tests {
     }
 
     #[test]
-    fn btypes_statnexp() {
+    fn ad_btypes_statnexp_02_3() {
         //! Module 002::03
         print!("\n");
         println!("Running mod 002::03...");
@@ -95,7 +95,8 @@ mod tests {
     }
 
     #[test]
-    fn btypes_funcs() {
+    fn ae_btypes_funcs_02_4() {
+        //! Module 002::04
         print!("\n");
         println!("Running mod 002::04...");
         functions001::main();
@@ -106,11 +107,19 @@ mod tests {
     }
 
     #[test]
-    fn ownnbow_own() {
+    fn af_ownnbow_own_03_1() {
+        //! Module 003::01
         print!("\n");
         println!("Running mod 003::01...");
         owner001::main();
         owner002::main();
+        owner003::main();
+        owner004::main();
+        owner005::main();
+        mut006::main();
+        mut007::main();
+        pmove008::main();
+        pmove009::main();
         // TODO
     }
 }
