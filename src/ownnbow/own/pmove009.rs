@@ -18,7 +18,6 @@ pub fn main() {
      let (s1, s2) = &t;
     // ? I was typing ref instead of the &
     // ? I'm stupid again
- 
+
      println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
 }
- 

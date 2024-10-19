@@ -24,14 +24,33 @@ use rust_by_practice::btypes::funcs::*;
 use rust_by_practice::ownnbow::own::*;
 // ? Ownership from Ownership and Borrowing
 
+#[allow(unused_imports)]
+use rust_by_practice::ownnbow::refnbow::*;
+// ? Reference and Borrowing from Ownership and Borrowing
+
+
 fn main() {
     //! The main function does not do anything by itself. It just prints a guide to use this code, not anything more.
     println!("Welcome to my 'Rust by practice' notes.\nHere I write the exercises I make day after day.\nThe book can be found at https://practice.rs, if you want to follow it with me.");
-    println!("To run the code, instead of doing `cargo run` you should `cargo test` instead.\nThat will run the tests which contain the code.")
+    println!("To run the code, instead of doing `cargo run` you should `cargo test` instead.\nThat will run the tests which contain the code.");
 }
+
 
 #[cfg(test)]
 mod tests {
+    //! Each test will run all of the files inside of the module.
+    //! 
+    //! The naming will be comprised of:
+    //! - two letters signifying the test number
+    //! - the parent module
+    //! - the module
+    //! - the parent module number
+    //! - the module number
+    //! 
+    //! each separated by an underscore:
+    //!
+    //! `fn bt_goodpractices_spaces_22_4() {...}`
+
     use super::*;
 
     #[test]
@@ -120,6 +139,15 @@ mod tests {
         mut007::main();
         pmove008::main();
         pmove009::main();
+    }
+
+    #[test]
+    fn ag_ownnbow_bow_03_2() {
+        //! Module 003::02
+        print!("\n");
+        println!("Running mod 003::02...");
+        reference001::main();
+// //   reference002::main();
         // TODO
     }
 }
