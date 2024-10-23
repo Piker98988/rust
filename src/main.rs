@@ -33,6 +33,7 @@ fn main() {
     //! The main function does not do anything by itself. It just prints a guide to use this code, not anything more.
     println!("Welcome to my 'Rust by practice' notes.\nHere I write the exercises I make day after day.\nThe book can be found at https://practice.rs, if you want to follow it with me.");
     println!("To run the code, instead of doing `cargo run` you should `cargo test` instead.\nThat will run the tests which contain the code.");
+    println!("To see the output of the code you should do a `cargo t -- --show-output`.");
 }
 
 
@@ -147,7 +148,12 @@ mod tests {
         print!("\n");
         println!("Running mod 003::02...");
         reference001::main();
-// //   reference002::main();
+        reference002::main();
+        reference003::main();
+        reference004::main();
+        reference005::main();
+        ref006::main();
+        // // bowrules007::main();
         // TODO
     }
 }

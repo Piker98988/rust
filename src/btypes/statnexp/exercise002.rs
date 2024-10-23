@@ -14,6 +14,7 @@ fn main() {
 
 // Make it work with two ways
 pub fn main() {
+    #[allow(unused_variables)]
     let v = {
         let mut x = 1; //? Removing this semicolon is one
         x += 2

@@ -18,10 +18,13 @@ fn main() {
 #[allow(dead_code)]
 pub fn main() {
     let x = 5;
+    #[allow(unused_variables)]
     let mut y: u32 = 5;
 
+    
     y = x;
     
+    #[allow(unused_variables)]
     let z = 10; // Type of z ? 
 
     println!("Success! at 002.01.01");

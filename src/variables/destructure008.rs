@@ -14,6 +14,7 @@ fn main() {
 */
 
 pub fn main() {
+    #[allow(unused_variables)]
     let (mut x, y) = (1, 2); // Make x mutable! Only 4 characters!
     x += 2;
     // Or just shadow it with another x.

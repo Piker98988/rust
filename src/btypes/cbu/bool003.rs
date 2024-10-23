@@ -14,6 +14,7 @@ fn main() {
 pub fn main() {
     let f: bool = false;
 
+    #[allow(unused_variables)]
     let t = true;
     if !f { // used f instead of t
         println!("Success at 002.02.03!");

@@ -29,6 +29,7 @@ pub fn main() {
     println!("Success at 002.04.04!");
 }
 
+#[allow(dead_code)]
 fn get_option(tp: u8) -> Option<i32> {
     match tp {
         1 => {
@@ -44,7 +45,7 @@ fn get_option(tp: u8) -> Option<i32> {
 }
 
 // IMPLEMENT this function in THREE ways
-// I just did not get the concept of what was wanted to be done
+// ? I just did not get the concept of what was wanted to be done
 fn never_return_fn() -> ! {
     panic!();
     unimplemented!(); // * I personally think this is the most elegant one
