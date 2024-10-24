@@ -153,7 +153,19 @@ mod tests {
         reference004::main();
         reference005::main();
         ref006::main();
-        // // bowrules007::main();
+        bowrules007::main();
+        mutability008::main();
+        mutability009::main();
+        nll010::main();
+        nll011::main();
+    }
+
+    #[test]
+    fn ah_compounds_strings_04_1() {
+        //! Module 004::01
+        print!("\n");
+        println!("Running mod 004::01...")
+        // ? Everything ready for tomorrow
         // TODO
     }
 }
