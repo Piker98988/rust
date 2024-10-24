@@ -1,5 +1,5 @@
 # Rust by practice
-[![wakatime](https://wakatime.com/badge/user/bb90fd1a-ac95-4d1b-894c-b58fc6daf025/project/878e9560-055d-43e3-a67c-847fef6db57e.svg)](https://wakatime.com/badge/user/bb90fd1a-ac95-4d1b-894c-b58fc6daf025/project/878e9560-055d-43e3-a67c-847fef6db57e)
+[![wakatime](https://wakatime.com/badge/user/bb90fd1a-ac95-4d1b-894c-b58fc6daf025/project/86b22eb2-a8cc-4a36-acd7-af23da8af6ca.svg)](https://wakatime.com/badge/user/bb90fd1a-ac95-4d1b-894c-b58fc6daf025/project/86b22eb2-a8cc-4a36-acd7-af23da8af6ca)
 
 This is my repository for the rust by practice [book](https://practice.rs). This [book](https://practice.rs) contains a plethora of exercises to complete with the purpose of achieving rust mastery.
 
