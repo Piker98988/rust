@@ -1,0 +1,1 @@
+//! String index 001; Book chapter 6.1.11; Code convention 004::01::11

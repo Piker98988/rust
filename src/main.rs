@@ -28,6 +28,30 @@ use rust_by_practice::ownnbow::own::*;
 use rust_by_practice::ownnbow::refnbow::*;
 // ? Reference and Borrowing from Ownership and Borrowing
 
+#[allow(unused_imports)]
+use rust_by_practice::compounds::strings::*;
+// ? Strings from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::tuples::*;
+// ? Tuples from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::arrays::*;
+// ? Arrays from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::enums::*;
+// ? Enums from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::slices::*;
+// ? Slices from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::structs::*;
+// ? Structs from Compound Types
+
 
 fn main() {
     //! The main function does not do anything by itself. It just prints a guide to use this code, not anything more.
@@ -164,8 +188,16 @@ mod tests {
     fn ah_compounds_strings_04_1() {
         //! Module 004::01
         print!("\n");
-        println!("Running mod 004::01...")
-        // ? Everything ready for tomorrow
+        println!("Running mod 004::01...");
+        strnstr001::main();
+        strnstr002::main();
+        string003::main();
+        string004::main();
+        string005::main();
+        string006::main();
+        strnstrings007::main();
+        strnstrings008::main();
+
         // TODO
     }
 }

@@ -1,0 +1,1 @@
+//! String scapes 001; Book chapter 6.1.9; Code convention 004::01::09
