@@ -189,23 +189,30 @@ mod tests {
         //! Module 004::01
         print!("\n");
         println!("Running mod 004::01...");
+
         strnstr001::main();
         strnstr002::main();
+
         string003::main();
         string004::main();
         string005::main();
         string006::main();
+
         strnstrings007::main();
         strnstrings008::main();
+
         strscape009::main();
         strscape010::main();
+
         stringindex011::main();
         oputf8string012::main();
     }
 
     #[test]
     fn ai_compounds_arrays_04_2() {
+        print!("\n");
         println!("Running mod 004::02...");
+
         array001::main();
         array002::main();
         array003::main();
@@ -216,8 +223,15 @@ mod tests {
 
     #[test]
     fn aj_compounds_slices_04_3() {
+        print!("\n");
         println!("Running mod 004::03...");
+
         slice001::main();
         slice002::main();
+        slice003::main();
+
+        strslice004::main();
+        strslice005::main();
+        
     }
 }
