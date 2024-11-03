@@ -46,6 +46,7 @@ fn get_option(tp: u8) -> Option<i32> {
 
 // IMPLEMENT this function in THREE ways
 // ? I just did not get the concept of what was wanted to be done
+#[allow(unreachable_code)]
 fn never_return_fn() -> ! {
     panic!();
     unimplemented!(); // * I personally think this is the most elegant one

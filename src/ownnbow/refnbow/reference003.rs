@@ -16,11 +16,12 @@ fn borrow_object(s: &String) {}
 
 // Fix error
 pub fn main() {
-    let mut s = String::from("hello, ");
+    let s = String::from("hello, ");
 
     borrow_object(&s);
 
     println!("Success at 003::02::03!");
 }
 
+#[allow(unused_variables)]
 fn borrow_object(s: &String) {}

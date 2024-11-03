@@ -10,6 +10,7 @@ fn main() {
 */
 
 // Use two approaches to fix the error and without adding a new line
+#[allow(unused_variables)]
 pub fn main() {
     let s = "hello, world";
     let s1 = s;

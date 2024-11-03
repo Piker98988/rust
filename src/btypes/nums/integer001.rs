@@ -16,6 +16,7 @@ fn main() {
 
 // Remove something to make it work
 #[allow(dead_code)]
+#[allow(unused_assignments)]
 pub fn main() {
     let x = 5;
     #[allow(unused_variables)]

@@ -15,3 +15,5 @@ pub mod strscape009;
 pub mod strscape010;
 
 pub mod stringindex011;
+
+pub mod oputf8string012;

@@ -33,24 +33,24 @@ use rust_by_practice::compounds::strings::*;
 // ? Strings from Compound Types
 
 #[allow(unused_imports)]
-use rust_by_practice::compounds::tuples::*;
-// ? Tuples from Compound Types
-
-#[allow(unused_imports)]
 use rust_by_practice::compounds::arrays::*;
 // ? Arrays from Compound Types
-
-#[allow(unused_imports)]
-use rust_by_practice::compounds::enums::*;
-// ? Enums from Compound Types
 
 #[allow(unused_imports)]
 use rust_by_practice::compounds::slices::*;
 // ? Slices from Compound Types
 
 #[allow(unused_imports)]
+use rust_by_practice::compounds::tuples::*;
+// ? Tuples from Compound Types
+
+#[allow(unused_imports)]
 use rust_by_practice::compounds::structs::*;
 // ? Structs from Compound Types
+
+#[allow(unused_imports)]
+use rust_by_practice::compounds::enums::*;
+// ? Enums from Compound Types
 
 
 fn main() {
@@ -197,7 +197,27 @@ mod tests {
         string006::main();
         strnstrings007::main();
         strnstrings008::main();
+        strscape009::main();
+        strscape010::main();
+        stringindex011::main();
+        oputf8string012::main();
+    }
 
-        // TODO
+    #[test]
+    fn ai_compounds_arrays_04_2() {
+        println!("Running mod 004::02...");
+        array001::main();
+        array002::main();
+        array003::main();
+        array004::main();
+        array005::main();
+        array006::main();
+    }
+
+    #[test]
+    fn aj_compounds_slices_04_3() {
+        println!("Running mod 004::03...");
+        slice001::main();
+        slice002::main();
     }
 }
